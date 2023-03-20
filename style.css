@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'komikazoomregular';
+    src: url('fonts/kamikzom-webfont.woff2') format('woff2'),
+         url('fonts/kamikzom-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: century gothic;
+}
+p {
+	line-height: 35px;
+	text-align: justify;
+}
+h1, h2, h3 {
+	font-family: komikazoomregular;
+	
+}
+h1 {
+	font-size: 97px;
+}
+li {
+	margin-bottom: 18px;
+}
+.wrapper {
+	max-width: 930px;
+	min-width: 440px;
+	margin: auto;
+	/*margin-left: 300px;
+	margin-right: 300px;*/
+}
+.header{
+	background-image: url("images/raise-hand.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 375px;
+	background-size: 375px;
+	margin-top: 170px;
+	margin-bottom: 130px;
+}
+.header h1 {
+	width: 450px;
+}
+.block {
+	margin-bottom: 35px;
+	margin-top: 35px;
+	/*border-bottom: 1px solid black;
+	padding: 333px;*/
+}
+.block p{
+	/*padding: 35px;*/
+	
+}
+.tokleft, .tokright {
+	margin-left: 50px;
+	margin-right: 50px;
+	border-top: 3px solid #34dad5;
+	border-bottom: 3px solid #eb4162;
+}
+.txtcontleft, .txtcontright {
+	max-width: 455px;
+	font-size: 14px;
+}
+.txtcontleft {
+	float: left;
+	padding-right: 50px;
+}
+.tiktok-embed {
+	max-width: 325px;
+}
