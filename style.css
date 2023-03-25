@@ -10,7 +10,7 @@ body {
 	font-family: century gothic;
 }
 p {
-	line-height: 35px;
+	line-height: 39px;
 	text-align: justify;
 }
 h1, h2, h3 {
@@ -20,8 +20,13 @@ h1, h2, h3 {
 h1 {
 	font-size: 97px;
 }
+ul {
+	margin-top: 25px;
+	margin-bottom: 40px;
+	list-style-image: url('images/bullet.png');
+}
 li {
-	margin-bottom: 18px;
+	margin-bottom: 27px;
 }
 .wrapper {
 	max-width: 930px;
@@ -50,11 +55,14 @@ li {
 }
 .navigation {
 	position: fixed;
+	top: 10%;
 }
 .navigation ul {
 	list-style: none;
 	font-size: 14px;
 	padding-left: 8px;
+	border-left: 4px solid #34dad5;
+	max-width: 190px;
 }
 .navigation a {
 	text-decoration: none;
@@ -64,20 +72,28 @@ li {
 	color: #000;
 }
 .block {
-	margin-bottom: 35px;
+	margin-bottom: 90px;
 	margin-top: 35px;
+	overflow: hidden;
 	/*border-bottom: 1px solid black;
 	padding: 333px;*/
 }
 .tokleft, .tokright {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 65px;
+	margin-right: 65px;
 	border-top: 4px solid #34dad5;
 	border-bottom: 4px solid #eb4162;
 }
+.tiktok-embed {
+	min-height: 725px;
+	max-width: 325px;
+}
 .txtcontleft, .txtcontright {
-	max-width: 455px;
+	max-width: 425px;
 	font-size: 14px;
+}
+.txtcontleft p, .txtcontright p {
+	line-height: 32px;
 }
 .txtcontleft {
 	float: left;
@@ -87,6 +103,13 @@ li {
 	float: right;
 	padding-left: 50px;
 }
-.tiktok-embed {
-	max-width: 325px;
+.zitat {
+	margin: 50px;
+	font-style: italic;
+	color: #777;
+}
+.credits p {
+	text-align: left;
+	line-height: 28px;
+	margin-bottom: 24px;
 }
