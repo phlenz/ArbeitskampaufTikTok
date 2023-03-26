@@ -6,6 +6,9 @@
     font-style: normal;
 
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: century gothic;
 }
@@ -32,10 +35,11 @@ li {
 	max-width: 930px;
 	min-width: 440px;
 	margin: auto;
+	padding-left:220px;
 	/*margin-left: 300px;
 	margin-right: 300px;*/
 }
-.header{
+.header {
 	background-image: url("images/raise-hand.png");
 	background-repeat: no-repeat;
 	background-position: right;
@@ -55,18 +59,29 @@ li {
 }
 .navigation {
 	position: fixed;
-	top: 10%;
+	top: 50%;
+	margin-top: -220px;
+	border-left: 4px solid #eb4162;
 }
 .navigation ul {
 	list-style: none;
 	font-size: 14px;
 	padding-left: 8px;
 	border-left: 4px solid #34dad5;
+	/*border-bottom: 4px solid #eb4162;
+	background-color: #eb4162;*/
 	max-width: 190px;
+	margin-top: -3px;
+	margin-bottom: 3px;
+	
+}
+.navigation ul li:last-of-type {
+	margin-bottom: 0;
 }
 .navigation a {
 	text-decoration: none;
-	color:#777;
+	font-weight: bold;
+	color:#ababab;	
 }
 .navigation a:hover {
 	color: #000;
