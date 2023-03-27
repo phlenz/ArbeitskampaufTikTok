@@ -6,11 +6,67 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'century_gothicregular';
+    src: url('fonts/century_gothic-webfont.woff2') format('woff2'),
+         url('fonts/century_gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'century_gothicregular';
+    src: url('fonts/centurygothic-webfont.woff2') format('woff2'),
+         url('fonts/centurygothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'century_gothicregular';
+    src: url('fonts/gothic-webfont.woff2') format('woff2'),
+         url('fonts/gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'century_gothicbold';
+    src: url('fonts/gothicb-webfont.woff2') format('woff2'),
+         url('fonts/gothicb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'century_gothicbold';
+    src: url('fonts/gothicb0-webfont.woff2') format('woff2'),
+         url('fonts/gothicb0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'century_gothicbold_italic';
+    src: url('fonts/gothicbi-webfont.woff2') format('woff2'),
+         url('fonts/gothicbi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'century_gothicitalic';
+    src: url('fonts/gothici-webfont.woff2') format('woff2'),
+         url('fonts/gothici-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: century gothic;
+	font-family: century_gothicregular;
 }
 p {
 	line-height: 39px;
