@@ -40,11 +40,11 @@ li {
 	margin-right: 300px;*/
 }
 .header {
-	background-image: url("images/raise-hand.png");
+	/*background-image: url("images/raise-hand.png");
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 375px;
 	background-size: 375px;
+	height: 375px;*/
 	margin-top: 170px;
 	margin-bottom: 130px;
 }
@@ -56,6 +56,11 @@ li {
 	font-style: italic;
 	margin-top: 0px;
 	color: #777;
+}
+.logo {
+	height: 375px;
+	float: right;
+	margin-right: -42px;
 }
 .navigation {
 	position: fixed;
@@ -83,9 +88,10 @@ li {
 	font-weight: bold;
 	color:#ababab;	
 }
-.navigation a:hover {
+.navigation a:hover, .navigation li.active a {
 	color: #000;
 }
+
 .block {
 	margin-bottom: 90px;
 	margin-top: 35px;
